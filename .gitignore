@@ -1,0 +1,58 @@
+# Ignore executable files
+*.exe
+
+# Ignore build directories
+**/bin/
+**/obj/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*.bak
+*.old
+
+# Ignore IDE specific files
+.vscode/
+*.code-workspace
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore compiled C# files
+*.dll
+*.pdb
+
+# Ignore compiled C++ files
+*.o
+*.out
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore JavaScript build artifacts
+dist/
+build/
+
+# Ignore Go build artifacts
+*.exe
+*.test
+*.out
+
+# Ignore Matlab build artifacts
+*.mex*
+
+# Ignore PHP build artifacts
+vendor/
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
+temp/
